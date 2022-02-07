@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #77787c;
+  --secondary-color: #d0ced6;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: var(--secondary-color);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 46px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h2 {
+  color: var(--primary-color);
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.col-md-4 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--primary-color);
+}
+.rounded:hover {
+  opacity: 70%;
+  transition: 1s ease-in-out;
+}
+ul {
+  font-size: 26px;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.parallax {
+  background-image: url("/images/parallax.jpg");
+
+  min-height: 400px;
+  min-width: none;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  text-align: left;
+  color: rgb(46, 44, 44);
+}
+.btn {
+  float: left;
+  padding: 15px;
+}
