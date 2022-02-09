@@ -1,13 +1,12 @@
 :root {
   --primary-color: #77787c;
-  --secondary-color: #d0ced6;
+  --secondary-color: #f1f1f1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  background: #f1f1f1;
+  background: var(--secondary-color);
   font-family: Verdana, Arial, sans-serif;
-  color: var(--secondary-color);
 }
 
 h1 {
@@ -88,8 +87,11 @@ textarea {
 
 #input-submit {
   color: rgb(12, 11, 11);
-  background: white;
+  background: rgb(218, 218, 218);
   cursor: pointer;
+}
+#input-submit:hover {
+  opacity: 50%;
 }
 
 textarea {
