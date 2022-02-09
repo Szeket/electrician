@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #f1f1f1;
   font-family: Verdana, Arial, sans-serif;
   color: var(--secondary-color);
 }
@@ -38,6 +39,11 @@ ul {
 li {
   list-style: none;
 }
+
+.service {
+  position: relative;
+  right: 10px;
+}
 .parallax {
   background-image: url("/images/parallax.jpg");
 
@@ -53,11 +59,8 @@ section {
   text-align: left;
   color: rgb(46, 44, 44);
 }
-.btn {
-  float: left;
-  padding: 15px;
-}
-.list-unstyled {
+
+.list-contact {
   float: right;
 }
 
@@ -65,8 +68,55 @@ section {
   font-size: 20px;
 }
 
-@media (max-width: 600px) {
-  .list-unstyled {
+form {
+  max-width: 1000px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  resize: none;
+}
+
+#input-submit {
+  color: rgb(12, 11, 11);
+  background: white;
+  cursor: pointer;
+}
+
+textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .list-contact {
     float: none;
+  }
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
   }
 }

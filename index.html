@@ -70,7 +70,7 @@
           <div class="img-fluid">
             <img src="/images/instalation.jpg" class="rounded" style="max-width:80%" />
           </div>
-          <ul>
+          <ul class="service">
           <li>Quadros eléctricos</li>
           <li>Tomadas</li>
           <li>Campainhas</li>
@@ -87,12 +87,11 @@
           <div class="img-fluid rounded">
           <img src="/images/reparation.jpg" class="rounded" style="max-width:80%" />
         </div>
-        <ul>
+        <ul class="service">
+          <li>Circuitos Elétricos</li>
           <li>Disjuntores</li>
           <li>Interruptores</li>
           <li>Campainhas</li>
-          <li>Circuitos Elétricos</li>
-          <li>Circuitos eléctricos</li>
           <li>Alarmes</li>
           <li>Sistemas de Vigilância</li>
           <li>Sistemas de Segurança</li>
@@ -101,10 +100,10 @@
       </div>
       <div class="col-md-4">
         Avarias 
-        
         <div class="img-fluid rounded">
           <img src="/images/avaria.jpg" class="rounded" style="max-width:80%" />
-        </div><ul>
+        </div>
+        <ul class="service">
        <li>Quadros eléctricos</li>
           <li>Tomadas</li>
           <li>Campainhas</li>
@@ -121,63 +120,35 @@
  </div>
  <section class="mb-4">
    <h2 class="h1-responsive font-weight-bold text-center my-4">Peça um Orçamento</h2>
-   <p class="text-center w-responsive mx-auto mb-5"></p>
+   
    <div class="row">
-     <div class="col-md-9 mb-md-0 mb-5">
-         <form id="contact-form" name="contact-form" formaction="mailto:oszka@protonmail.com" method="get" enctype="text/plain">
-           <div class="row">
-               <div class="col-md-6">
-                   <div class="md-form mb-0">
-                       <input type="text" id="name" name="name" class="form-control">
-                       <label for="name" class="">Nome</label>
-                   </div>
-               </div>
-               <div class="col-md-6">
-                   <div class="md-form mb-0">
-                       <input type="text" id="email" name="email" class="form-control">
-                       <label for="email" class="">Email</label>
-                   </div>
-               </div>
-             </div>
-             <div class="row">
-                 <div class="col-md-12">
-                     <div class="md-form mb-0">
-                         <input type="text" id="subject" name="subject" class="form-control">
-                         <label for="subject" class="">Assunto</label>
-                     </div>
-                 </div>
-             </div>
-             <div class="row">
-               <div class="col-md-12">
-                 <div class="md-form">
-                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                     <label for="message">Mensagem</label>
-                 </div>
-               </div>
-           </div>
-         </form>
-         <br />
-         <div class="text-center text-md-left">
-             <a class="btn btn-dark mt-2" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-         </div>
-         <div class="status"></div>
-     </div>
-     <div class="col-md-3 text-center">
-       <ul class="list-unstyled mb-0">
-         <li><i class="fas fa-map-marker-alt fa-2x"></i>
-           <p>Porto, PT</p>
-         </li>
-         
-         <li><i class="fas fa-phone mt-4 fa-2x"></i>
-           <p>+351 123456789</p>
-         </li>
-         <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-           <p>contact@vcosta.pt</p>
-         </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+     <div class="col-md-9">
+        <form action="https://formspree.io/f/xnqwpyyo" method="POST">
+      <form class="cf">
+      <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+</div>
+<div class="col-md-3">
+  <ul class="list-contact">
+    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+      <p>Porto, PT</p>
+    </li>
+    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+      <p>+351 123456789</p>
+    </li>
+    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+      <p>contact@vcosta.pt</p>
+    </li>
+  </ul>
+</div>
+</section>
 </body>
 </html>
    
