@@ -60,3 +60,7 @@ section {
 .list-unstyled {
   float: right;
 }
+
+.nav-item {
+  font-size: 20px;
+}
