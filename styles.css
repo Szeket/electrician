@@ -114,6 +114,13 @@ textarea {
   float: none;
   margin-bottom: 0;
 }
+footer {
+  text-align: center;
+  color: #6d6d74;
+}
+a {
+  color: black;
+}
 @media (max-width: 900px) {
   .col-md-3 {
     display: flex;
