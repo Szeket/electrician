@@ -5,8 +5,8 @@
 }
 
 body {
+  margin: 0;
   background: var(--secondary-color);
-
   font-family: "Lato", sans-serif;
 }
 
@@ -33,13 +33,11 @@ h3 {
   max-height: 100vh;
 }
 .col-md-4 {
-  font-size: 30px;
   text-align: center;
-  color: var(--primary-color);
 }
 .bulb {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 22px;
 }
 .rounded:hover {
   opacity: 70%;
@@ -66,9 +64,11 @@ li {
 }
 
 .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
   background-image: url("/images/parallax.jpg");
-
   min-height: 400px;
 
   background-attachment: fixed;
@@ -76,8 +76,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#paral {
-  color: aliceblue;
+.btn {
+  font-size: 3em;
 }
 section {
   text-align: left;
