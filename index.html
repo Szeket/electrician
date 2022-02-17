@@ -27,7 +27,7 @@
 
     <title>VCosta - serviços eléctricos</title>
   </head>
-  <>
+  
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">VCosta</a>
@@ -112,7 +112,7 @@
       </div>
       <div class="container-fluid">
         <div class="row justify-content-md-center mt-5">
-          <h2 class="responsive font-weight-bold text-center my-4">Nossos serviços</h2>
+          <h2 class="responsive font-weight-bold text-center m-5 p-5">Nossos serviços</h2>
           
           <div class="col-md-4">
           
@@ -148,10 +148,19 @@
           </div>
         </div>
     </div>
+
   <div class="container">
-    <h2 class="responsive font-weight-bold text-center mt-5 mb-5">Peça um Orçamento</h2>
+    <h2 class="responsive font-weight-bold text-center p-5 m-5">Peça um Orçamento</h2>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.93668665132!2d-8.572663284746483!3d41.070376579294475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd247c77b9df6735%3A0xe57708df31cb9531!2sR.%20Cruz%20de%20Carrais%2C%20Pedroso!5e0!3m2!1sen!2spt!4v1645106589381!5m2!1sen!2spt" 
+          width="600" 
+          height="350" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy"></iframe>
+        </div>
+      <div class="col-md">
         <form action="https://formspree.io/f/xnqwpyyo" method="POST">
           <form class="cf">
             <div class="half left cf">
@@ -164,23 +173,24 @@
             <input type="submit" value="Submit" id="input-submit">
           </form>
         </div>
-        <div class="col-md-auto">
-          <ul class="list-contact" id="contact">
-            <li><i class="fas fa-map-marker-alt mt-4 fa-2x"></i>
-              
-              <p>Porto, PT</p>
-            </li>
-            <li><i class="fas fa-phone mt-4 fa-2x"></i>
-              <p>+351 123456789</p>
-            </li>
-            <li><i class="fas fa-envelope fa-2x"></i>
-              <p>contact@vcosta.pt</p>
-            </li>
-          </ul>
-        </div>
       </div>
-          <br />
-          <br />
+      </div>
+        <div class="container" id="contact">
+        <div class="row">
+          <div class="col">
+            <i class="fas fa-map-marker-alt  fa-2x"></i>
+              <p>Porto, PT</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-phone fa-2x"></i>
+                <p>+351 123456789</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-envelope fa-2x"></i>
+                <p>contact@vcosta.pt</p>
+          </div>
+        </div>
+      
           <footer>
             with <i class="fas fa-heart"></i> 
             by

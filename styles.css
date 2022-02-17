@@ -84,8 +84,11 @@ section {
   color: rgb(46, 44, 44);
 }
 
-.list-contact {
-  float: right;
+#contact {
+  font-size: 1em;
+  margin-top: 30px;
+  text-align: center;
+  scroll-behavior: smooth;
 }
 
 .nav-item {
@@ -142,6 +145,7 @@ textarea {
   margin-bottom: 0;
 }
 footer {
+  margin-top: 8em;
   text-align: center;
   color: #6d6d74;
   font-size: 20px;
