@@ -6,7 +6,8 @@
 
 body {
   background: var(--secondary-color);
-  font-family: Verdana, Arial, sans-serif;
+
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -19,13 +20,26 @@ h1 {
 h2 {
   color: var(--primary-color);
   font-size: 36px;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 26px;
+
   text-align: center;
   padding-bottom: 40px;
+}
+.img-fluid {
+  max-height: 100vh;
 }
 .col-md-4 {
   font-size: 30px;
   text-align: center;
   color: var(--primary-color);
+}
+.bulb {
+  color: var(--primary-color);
+  font-size: 20px;
 }
 .rounded:hover {
   opacity: 70%;
@@ -39,20 +53,31 @@ li {
   list-style: none;
 }
 
-.service {
+.small {
+  font-size: 18px;
+  line-height: 1, 6px;
+  margin-left: 50px;
+  margin-right: 50px;
   position: relative;
-  right: 10px;
 }
+.service {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
 .parallax {
+  margin-top: 40px;
   background-image: url("/images/parallax.jpg");
 
   min-height: 400px;
-  min-width: none;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#paral {
+  color: aliceblue;
 }
 section {
   text-align: left;
