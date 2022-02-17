@@ -153,6 +153,14 @@ footer {
 a {
   color: black;
 }
+a:hover {
+  color: rgb(224, 143, 157);
+}
+.fa-heart:hover {
+  color: rgb(224, 143, 157);
+}
+}
+
 @media (max-width: 900px) {
   .col-md-3 {
     display: flex;
