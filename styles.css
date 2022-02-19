@@ -12,14 +12,14 @@ body {
 
 h1 {
   font-weight: 350;
-  font-size: 34px;
+  font-size: 32px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
@@ -55,6 +55,7 @@ h3 {
   margin-bottom: 15px;
 }
 .bulb {
+  font-weight: 300;
   color: var(--primary-color);
   font-size: 18px;
 }
