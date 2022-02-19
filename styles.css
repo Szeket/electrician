@@ -11,29 +11,42 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
+  font-weight: 350;
   font-size: 34px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-h2 {
-  color: var(--primary-color);
-  font-size: 30px;
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
 }
-@media (max-width: 500px) {
+
+h2 {
+  font-weight: 300;
+  font-size: 34px;
+}
+@media (max-width: 800px) {
   h2 {
-    font-size: 26px;
+    font-size: 25px;
   }
 }
 
 h3 {
   color: var(--primary-color);
-  font-size: 20px;
-
+  font-size: 22px;
+  font-weight: 300;
   text-align: left;
   padding-bottom: 40px;
 }
+
+@media (max-widht: 800px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
 .img-fluid {
   max-height: 100vh;
 }
@@ -58,6 +71,7 @@ li {
 }
 
 .small {
+  font-weight: 300;
   color: var(--primary-color);
   font-size: 18px;
   line-height: 1, 6px;
@@ -66,11 +80,12 @@ li {
   position: relative;
 }
 .service {
+  font-weight: 300;
   font-size: 20px;
   margin-top: 20px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .service {
     font-size: 18px;
   }
@@ -101,8 +116,9 @@ li {
   border: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .btn {
+    font-weight: 300;
     font-size: 25px;
   }
 }
@@ -215,17 +231,5 @@ a:hover {
   .col-md-3 {
     display: flex;
     justify-content: center;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 500px) {
-  h3 {
-    font-size: 20px;
   }
 }
