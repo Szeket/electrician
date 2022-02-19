@@ -12,21 +12,21 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-size: 46px;
+  font-size: 38px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 h2 {
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 32px;
 }
 
 h3 {
   color: var(--primary-color);
-  font-size: 26px;
+  font-size: 20px;
 
-  text-align: center;
+  text-align: left;
   padding-bottom: 40px;
 }
 .img-fluid {
@@ -64,8 +64,14 @@ p {
   position: relative;
 }
 .service {
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  .service {
+    font-size: 18px;
+  }
 }
 
 .parallax {
@@ -83,6 +89,12 @@ p {
 }
 .btn {
   font-size: 3em;
+}
+
+@media (max-width: 700px) {
+  .btn {
+    font-size: 2em;
+  }
 }
 
 #contact {
