@@ -34,6 +34,7 @@ h3 {
 }
 .col-md-4 {
   text-align: center;
+  margin-bottom: 15px;
 }
 .bulb {
   color: var(--primary-color);
@@ -51,6 +52,10 @@ li {
   list-style: none;
 }
 
+p {
+  color: var(--primary-color);
+}
+
 .small {
   font-size: 18px;
   line-height: 1, 6px;
@@ -59,7 +64,7 @@ li {
   position: relative;
 }
 .service {
-  font-size: 24px;
+  font-size: 25px;
   margin-top: 20px;
 }
 
@@ -194,5 +199,11 @@ a:hover {
 @media (max-width: 480px) {
   h1 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 20px;
   }
 }
