@@ -12,14 +12,19 @@ body {
 
 h1 {
   color: var(--primary-color);
-  font-size: 38px;
+  font-size: 34px;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 h2 {
   color: var(--primary-color);
-  font-size: 32px;
+  font-size: 30px;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 26px;
+  }
 }
 
 h3 {
@@ -38,7 +43,7 @@ h3 {
 }
 .bulb {
   color: var(--primary-color);
-  font-size: 22px;
+  font-size: 18px;
 }
 .rounded:hover {
   opacity: 70%;
@@ -52,11 +57,8 @@ li {
   list-style: none;
 }
 
-p {
-  color: var(--primary-color);
-}
-
 .small {
+  color: var(--primary-color);
   font-size: 18px;
   line-height: 1, 6px;
   margin-left: 50px;
@@ -64,7 +66,7 @@ p {
   position: relative;
 }
 .service {
-  font-size: 23px;
+  font-size: 20px;
   margin-top: 20px;
 }
 
@@ -88,12 +90,15 @@ p {
   background-size: cover;
 }
 .btn {
-  font-size: 3em;
+  font-size: 35px;
+  background: transparent;
+  border: 3px solid black;
+  border-radius: 4%;
 }
 
 @media (max-width: 700px) {
   .btn {
-    font-size: 2em;
+    font-size: 25px;
   }
 }
 
